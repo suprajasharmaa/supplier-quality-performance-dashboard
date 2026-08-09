@@ -1,7 +1,7 @@
 📊 Supplier Quality & Performance Dashboard
 📄 [Case Study Report](https://github.com/suprajasharmaa/supplier-quality-performance-dashboard/blob/main/Supplier_Quality_Performance_Dashboard_Writeup.docx) | 🗃️ [SQL Queries](https://github.com/suprajasharmaa/supplier-quality-performance-dashboard/blob/main/procurement_analysis.sql) | 📈 [Excel Workbook](https://github.com/suprajasharmaa/supplier-quality-performance-dashboard/blob/main/Vendor_Scorecard_Composite_Ranking.xlsx) | 📊 [Power BI Dashboard](https://github.com/suprajasharmaa/supplier-quality-performance-dashboard/blob/main/Supplier_Quality_Performance_Dashboard.pbix)
 
-A SQL + Excel + Power BI analysis of 777 procurement orders across 5 suppliers to identify who's underperforming on delivery, quality, and compliance — built with CASE logic, weighted composite scoring, DAX measures, a drillthrough page, a What-if Parameter, and AI-driven segmentation.
+A SQL + Excel + Power BI analysis of 777 procurement orders across 5 suppliers to identify who's underperforming on delivery, quality, and compliance - built with CASE logic, weighted composite scoring, DAX measures, a drillthrough page, a What-if Parameter, and AI-driven segmentation.
 
 ## Overview
 
@@ -20,10 +20,10 @@ MySQL (MySQL Workbench) · Excel (min-max normalization, weighted scoring) · Po
 
 ## Key Findings
 
-1. Gamma_Co leads on-time delivery at 61.3%, while Beta_Supplies trails at just 46.0% — over half of its deliveries arrive late
-2. Delta_Logistics has the highest defect rate of all 5 suppliers (10.6%), translating to ₹7.83L in defective-unit costs — the single largest cost impact in the portfolio
+1. Gamma_Co leads on-time delivery at 61.3%, while Beta_Supplies trails at just 46.0% - over half of its deliveries arrive late
+2. Delta_Logistics has the highest defect rate of all 5 suppliers (10.6%), translating to ₹7.83L in defective-unit costs - the single largest cost impact in the portfolio
 3. A weighted composite score (30% On-Time, 40% Defect Rate, 20% Compliance, 10% Lead Time) reveals a genuine two-tier split: three suppliers score 74-81, while two score just 21-31
-4. AI-driven segmentation found Beta_Supplies' lateness problem concentrates specifically outside Office Supplies orders — a 74-order cluster with a 59.5% late rate, nearly double the company average
+4. AI-driven segmentation found Beta_Supplies' lateness problem concentrates specifically outside Office Supplies orders - a 74-order cluster with a 59.5% late rate, nearly double the company average
 5. Price variance from the negotiated price is flat across all 5 suppliers (~8.5-8.9%) and uncorrelated with the Compliance flag, disproving the assumption that compliance is pricing-related
 
 ## Recommendations
@@ -44,6 +44,6 @@ MySQL (MySQL Workbench) · Excel (min-max normalization, weighted scoring) · Po
 ## How to Run
 
 1. Download the dataset from Kaggle (Procurement KPI Analysis Dataset)
-2. Create a schema called `procurement_analysis` in MySQL Workbench, import the CSV into a table called `procurement`, and run the queries in `procurement_analysis.sql` in order — each is commented with its business question
+2. Create a schema called `procurement_analysis` in MySQL Workbench, import the CSV into a table called `procurement`, and run the queries in `procurement_analysis.sql` in order - each is commented with its business question
 3. Open `Vendor_Scorecard_Composite_Ranking.xlsx` to see the normalization and composite scoring built on the SQL output
-4. Open `Supplier_Quality_Performance_Dashboard.pbix` in Power BI Desktop for the full interactive experience — includes a drillthrough page, a What-if Parameter, and AI-driven segmentation
+4. Open `Supplier_Quality_Performance_Dashboard.pbix` in Power BI Desktop for the full interactive experience - includes a drillthrough page, a What-if Parameter, and AI-driven segmentation
