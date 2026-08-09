@@ -1,5 +1,5 @@
 📊 Supplier Quality & Performance Dashboard
-📄 [Case Study Report](https://github.com/suprajasharmaa/supplier-quality-performance-dashboard/blob/main/Supplier_Quality_Performance_Dashboard_Writeup.docx) | 🗃️ [SQL Queries](https://github.com/suprajasharmaa/supplier-quality-performance-dashboard/blob/main/procurement_analysis.sql) | 📈 [Excel Workbook](https://github.com/suprajasharmaa/supplier-quality-performance-dashboard/blob/main/Vendor_Scorecard_Composite_Ranking.xlsx) | 🔗 [Live Dashboard](REPLACE_WITH_YOUR_PUBLISHED_POWER_BI_LINK)
+📄 [Case Study Report](https://github.com/suprajasharmaa/supplier-quality-performance-dashboard/blob/main/Supplier_Quality_Performance_Dashboard_Writeup.docx) | 🗃️ [SQL Queries](https://github.com/suprajasharmaa/supplier-quality-performance-dashboard/blob/main/procurement_analysis.sql) | 📈 [Excel Workbook](https://github.com/suprajasharmaa/supplier-quality-performance-dashboard/blob/main/Vendor_Scorecard_Composite_Ranking.xlsx) | 📊 [Power BI Dashboard](https://github.com/suprajasharmaa/supplier-quality-performance-dashboard/blob/main/Supplier_Quality_Performance_Dashboard.pbix)
 
 A SQL + Excel + Power BI analysis of 777 procurement orders across 5 suppliers to identify who's underperforming on delivery, quality, and compliance — built with CASE logic, weighted composite scoring, DAX measures, a drillthrough page, a What-if Parameter, and AI-driven segmentation.
 
@@ -46,4 +46,4 @@ MySQL (MySQL Workbench) · Excel (min-max normalization, weighted scoring) · Po
 1. Download the dataset from Kaggle (Procurement KPI Analysis Dataset)
 2. Create a schema called `procurement_analysis` in MySQL Workbench, import the CSV into a table called `procurement`, and run the queries in `procurement_analysis.sql` in order — each is commented with its business question
 3. Open `Vendor_Scorecard_Composite_Ranking.xlsx` to see the normalization and composite scoring built on the SQL output
-4. Open `Supplier_Quality_Performance_Dashboard.pbix` in Power BI Desktop for the full interactive experience, or use the Live Dashboard link above to view it directly in the browser
+4. Open `Supplier_Quality_Performance_Dashboard.pbix` in Power BI Desktop for the full interactive experience — includes a drillthrough page, a What-if Parameter, and AI-driven segmentation
