@@ -21,7 +21,7 @@ MySQL (MySQL Workbench) · Excel (min-max normalization, weighted scoring) · Po
 ## Key Findings
 
 1. Gamma_Co leads on-time delivery at 61.3%, while Beta_Supplies trails at just 46.0% - over half of its deliveries arrive late
-2. Delta_Logistics has the highest defect rate of all 5 suppliers (10.6%), translating to ₹7.83L in defective-unit costs - the single largest cost impact in the portfolio
+2. Delta_Logistics has the highest defect rate of all 5 suppliers (10.6%), translating to 7.83L in defective-unit costs - the single largest cost impact in the portfolio
 3. A weighted composite score (30% On-Time, 40% Defect Rate, 20% Compliance, 10% Lead Time) reveals a genuine two-tier split: three suppliers score 74-81, while two score just 21-31
 4. AI-driven segmentation found Beta_Supplies' lateness problem concentrates specifically outside Office Supplies orders - a 74-order cluster with a 59.5% late rate, nearly double the company average
 5. Price variance from the negotiated price is flat across all 5 suppliers (~8.5-8.9%) and uncorrelated with the Compliance flag, disproving the assumption that compliance is pricing-related
